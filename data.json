@@ -1,0 +1,59 @@
+{
+  "user": {
+    "name": "John",
+    "username": "Johny",
+    "password": "123456",
+    "phone": "11111111",
+    "logged": true,
+    "contacts": [
+      {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "phone": "17707368031"
+      },
+      {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "phone": "17707368032"
+      },
+      {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "phone": "17707368033"
+      },
+      {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "phone": "17707368034"
+      },
+      {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "phone": "17707368035"
+      },
+      {
+        "id": 6,
+        "name": "Mark Enthesy",
+        "username": "Mark_Enth",
+        "phone": "17707368036"
+      },
+      {
+        "id": 7,
+        "name": "Mariam S. A.",
+        "username": "MarySA",
+        "phone": "17707368037"
+      },
+      {
+        "id": 8,
+        "username": "ertyui",
+        "name": "wert",
+        "phone": "34567654"
+      }
+    ]
+  }
+}

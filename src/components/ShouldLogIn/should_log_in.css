@@ -1,0 +1,25 @@
+.locked {
+	width: 40%;
+	background-color: #ddd;
+	margin: 50px auto;
+	padding: 25px;
+}
+
+.image {
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	margin: 0 auto;
+	background: url("lock.png") center no-repeat, #fff;
+}
+
+.description {
+	font-size: 1.5rem;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.description a {
+	color: #5296d5;
+	font-weight: 600;
+}

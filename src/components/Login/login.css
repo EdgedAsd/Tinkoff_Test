@@ -1,0 +1,35 @@
+.form-wrapper {
+	width: 40%;
+	background-color: #ddd;
+	margin: 50px auto;
+	padding: 25px;
+}
+
+.title {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.form {
+	margin: 25px auto;
+	width: 80%;
+}
+
+.form__submit {
+	background-color: #5296d5;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	outline: none;
+	border: none;
+	width: 30%;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.form__warning {
+	color: #f00;
+	margin-top: 10px;
+}

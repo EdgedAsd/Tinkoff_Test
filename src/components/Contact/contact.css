@@ -1,0 +1,106 @@
+.contact-item {
+	margin-bottom: 20px;
+	width: 50%;
+	height: 200px;
+	background: url("convert.jpg") center no-repeat;
+	background-size: cover;
+	position: absolute;
+	cursor: pointer;
+	font-family: BrotherDeluxe;
+	padding: 15px 60px 15px 20px;
+	box-shadow: 3px 3px 12px 4px rgba(0,0,0,.5);
+	transition: opacity 0.5s, left 1s, box-shadow 0.5s, top 1s;
+}
+
+.contact-item.active {
+	z-index: 5;
+	box-shadow: 3px 3px 20px 8px rgba(0,0,0,.8);
+}
+
+.contact-item.active .dark-wall_absolute {
+	opacity: 0;
+}
+
+.contact-item.active .contact-buttons__btn {
+	z-index: 5;
+}
+
+.contact-item__phone {
+	margin-left: 47%;
+	margin-top: -40px;
+}
+
+.contact-item__phone_number {
+	margin-top: 10px;
+	display: block;
+	text-align: right;
+}
+
+.contact-buttons {
+	display: flex;
+	margin-top: 40px;
+}
+
+.contact-buttons__btn {
+	font-family: BrotherDeluxe;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	padding: 2px 5px;
+}
+
+.contact-buttons__btn_edit {
+	margin-right: 20px;
+}
+
+.contact-buttons__btn_save {
+	margin-top: 40px;
+}
+
+
+@media (max-width: 1240px) {
+	.contact-item__phone {
+		margin-top: -45px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.contact-item__phone {
+		margin-top: -30px;
+	}
+
+	.contact-buttons {
+		margin-top: 50px;
+	}
+
+	.contact-buttons__btn_save {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 768px) {
+	.contact-item {
+		width: 40%;
+		height: 150px;
+		padding: 7px 40px 7px 15px;
+	}
+
+	.contact-item__phone {
+		margin-top: -15px;
+		font-size: 1.1em;
+	}
+
+	.contact-item__phone_number {
+		margin-top: 5px;
+	}
+
+	.contact-buttons {
+		margin-top: 35px;
+	}
+
+	.contact-buttons__btn_save {
+		margin-top: 35px;
+	}
+}

@@ -1,0 +1,74 @@
+.contacts {
+	background: url("contacts_bg.jpg") center no-repeat;
+	background-size: cover;
+	min-height: 770px;
+	height: 100%;
+}
+
+.list-wrapper {
+	width: 60%;
+	margin-left: 40%;
+	position: relative;
+	height: 100%;
+}
+
+.contact-list {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+
+.contact-list-buttons {
+	position: absolute;
+	bottom: 30px;
+	display: flex;
+	width: 100%;
+}
+
+.contact-list-buttons__button {
+	font-size: 1.5rem;
+	background-color: transparent;
+	border: 2px solid #cca773;
+	outline: none;
+	cursor: pointer;
+	width: 25%;
+	height: 40px;
+	color: #cca773;
+	border-radius: 10px;
+	transition: box-shadow 1s;
+}
+
+.contact-list-buttons__button:hover {
+	box-shadow: 0 0 15px 6px #cca773;
+}
+
+.contact-list-buttons__button:active {
+	box-shadow: 0 0 100px 40px #cca773;
+	transition: 0.1s;
+}
+
+.contact-list-buttons__button_save {
+	margin-right: 5%;
+}
+
+.contact-list-buttons__button_disabled {
+	cursor: default;
+	opacity: 0.5;
+}
+
+.contact-list-buttons__button_disabled:hover {
+	box-shadow: none;
+}
+
+
+@media (max-width: 960px) {
+	.list-wrapper {
+		width: 80%;
+		margin-left: 20%;
+	}
+
+	.contacts {
+		background: url("contacts_bg.jpg") right center no-repeat;
+		background-size: cover;
+	}
+}
