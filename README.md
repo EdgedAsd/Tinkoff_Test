@@ -16,4 +16,4 @@
   - Also user can edit contacts, just push button *edit* on the contact, then edit field you want. When all changes are finished, push button *save*
   - User can delete contacts, just push button *delete* on the contact
   - If you want to create new contact, push button *create*. After that new contact will be created with default values which are able to change
-  - _No one change will be save if you will not push button *save* on the bottom of the screen. After pushing all data will be saved on server_
+  - __No one change will be save if you will not push button *save* on the bottom of the screen. After pushing all data will be saved on server__
